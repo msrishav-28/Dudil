@@ -1,0 +1,302 @@
+{
+  "chat_20250529_170948": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "hola",
+        "emotion_analysis": {
+          "emotion": "anger",
+          "confidence": 0.4657919704914093,
+          "intensity": 2,
+          "raw_results": [
+            {
+              "label": "sadness",
+              "score": 0.052772242575883865
+            },
+            {
+              "label": "joy",
+              "score": 0.3151188790798187
+            },
+            {
+              "label": "love",
+              "score": 0.007205117028206587
+            },
+            {
+              "label": "anger",
+              "score": 0.4657919704914093
+            },
+            {
+              "label": "fear",
+              "score": 0.14779961109161377
+            },
+            {
+              "label": "surprise",
+              "score": 0.011312075890600681
+            }
+          ],
+          "model_type": "distilbert-emotion"
+        },
+        "timestamp": "2025-05-29T17:09:52.342778"
+      },
+      {
+        "role": "assistant",
+        "content": "Hola!  It sounds like you might be a little frustrated. Is there anything you'd like to talk about?  I'm here to listen without judgment if you need to vent or just need a moment to collect your thoughts.\n",
+        "timestamp": "2025-05-29T17:09:54.763398"
+      },
+      {
+        "role": "user",
+        "content": "i am not",
+        "emotion_analysis": {
+          "emotion": "anger",
+          "confidence": 0.8403876423835754,
+          "intensity": 2,
+          "raw_results": [
+            {
+              "label": "sadness",
+              "score": 0.06606056541204453
+            },
+            {
+              "label": "joy",
+              "score": 0.05998168885707855
+            },
+            {
+              "label": "love",
+              "score": 0.0038962545804679394
+            },
+            {
+              "label": "anger",
+              "score": 0.8403876423835754
+            },
+            {
+              "label": "fear",
+              "score": 0.02806388959288597
+            },
+            {
+              "label": "surprise",
+              "score": 0.0016100056236609817
+            }
+          ],
+          "model_type": "distilbert-emotion"
+        },
+        "timestamp": "2025-05-29T17:10:02.498148"
+      },
+      {
+        "role": "assistant",
+        "content": "Okay. I understand.  I apologize if my previous response was inaccurate.  Sometimes it's hard to express what we're feeling, and I respect that. Is there anything else I can help you with today?\n",
+        "timestamp": "2025-05-29T17:10:03.482294"
+      },
+      {
+        "role": "user",
+        "content": "what should i cook today?",
+        "emotion_analysis": {
+          "emotion": "anger",
+          "confidence": 0.7743555307388306,
+          "intensity": 2,
+          "raw_results": [
+            {
+              "label": "sadness",
+              "score": 0.05217273160815239
+            },
+            {
+              "label": "joy",
+              "score": 0.11018890142440796
+            },
+            {
+              "label": "love",
+              "score": 0.0031360662542283535
+            },
+            {
+              "label": "anger",
+              "score": 0.7743555307388306
+            },
+            {
+              "label": "fear",
+              "score": 0.057665854692459106
+            },
+            {
+              "label": "surprise",
+              "score": 0.002480946248397231
+            }
+          ],
+          "model_type": "distilbert-emotion"
+        },
+        "timestamp": "2025-05-29T17:10:21.877613"
+      },
+      {
+        "role": "assistant",
+        "content": "Okay, let's take a break from whatever's been bothering you and focus on something delicious!  What kind of food are you in the mood for?  Thinking about cooking something tasty might help take your mind off things.  Let's brainstorm some ideas together.  Do you have any ingredients on hand already?\n",
+        "timestamp": "2025-05-29T17:10:22.935614"
+      },
+      {
+        "role": "user",
+        "content": "i am not angry come on",
+        "emotion_analysis": {
+          "emotion": "anger",
+          "confidence": 0.9977273344993591,
+          "intensity": 2,
+          "raw_results": [
+            {
+              "label": "sadness",
+              "score": 0.0007182066328823566
+            },
+            {
+              "label": "joy",
+              "score": 0.0003827284090220928
+            },
+            {
+              "label": "love",
+              "score": 0.0002207487414125353
+            },
+            {
+              "label": "anger",
+              "score": 0.9977273344993591
+            },
+            {
+              "label": "fear",
+              "score": 0.0007853126735426486
+            },
+            {
+              "label": "surprise",
+              "score": 0.00016566003614570946
+            }
+          ],
+          "model_type": "distilbert-emotion"
+        },
+        "timestamp": "2025-05-29T17:10:29.982793"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand.  My apologies. I seem to be misinterpreting your cues.  I'm still learning to accurately detect emotions, and sometimes I get it wrong.  Let's forget about my previous attempts to guess your feelings.  What would you like to cook today?  Perhaps we can browse some recipes together?\n",
+        "timestamp": "2025-05-29T17:10:31.012060"
+      },
+      {
+        "role": "user",
+        "content": "i am happy",
+        "emotion_analysis": {
+          "emotion": "joy",
+          "confidence": 0.998437225818634,
+          "intensity": 5,
+          "raw_results": [
+            {
+              "label": "sadness",
+              "score": 0.0005438437219709158
+            },
+            {
+              "label": "joy",
+              "score": 0.998437225818634
+            },
+            {
+              "label": "love",
+              "score": 0.0004561925888992846
+            },
+            {
+              "label": "anger",
+              "score": 0.0002622488245833665
+            },
+            {
+              "label": "fear",
+              "score": 0.0001431150158168748
+            },
+            {
+              "label": "surprise",
+              "score": 0.00015750851889606565
+            }
+          ],
+          "model_type": "distilbert-emotion"
+        },
+        "timestamp": "2025-05-29T17:10:35.503728"
+      },
+      {
+        "role": "assistant",
+        "content": "That's fantastic! I'm so thrilled to hear you're happy!  What's making you so joyful today? Let's celebrate!  Tell me all about it! 🎉\n",
+        "timestamp": "2025-05-29T17:10:36.444105"
+      },
+      {
+        "role": "user",
+        "content": "afterall i got a gf",
+        "emotion_analysis": {
+          "emotion": "joy",
+          "confidence": 0.8678949475288391,
+          "intensity": 5,
+          "raw_results": [
+            {
+              "label": "sadness",
+              "score": 0.019486259669065475
+            },
+            {
+              "label": "joy",
+              "score": 0.8678949475288391
+            },
+            {
+              "label": "love",
+              "score": 0.0031693291384726763
+            },
+            {
+              "label": "anger",
+              "score": 0.09551265835762024
+            },
+            {
+              "label": "fear",
+              "score": 0.012033427134156227
+            },
+            {
+              "label": "surprise",
+              "score": 0.0019033581484109163
+            }
+          ],
+          "model_type": "distilbert-emotion"
+        },
+        "timestamp": "2025-05-29T17:10:49.792617"
+      },
+      {
+        "role": "assistant",
+        "content": "That's absolutely AMAZING news! 🎉🎉🎉  A girlfriend?!  Oh my goodness, I'm so incredibly happy for you!  This calls for a celebration!  Tell me everything – how did it happen?  What's she like?  What are you most excited about? I'm practically bursting with joy for you right now!  Let's hear all the happy details! 😄\n",
+        "timestamp": "2025-05-29T17:10:50.920451"
+      },
+      {
+        "role": "user",
+        "content": "i feel so much in love",
+        "emotion_analysis": {
+          "emotion": "love",
+          "confidence": 0.670377254486084,
+          "intensity": 5,
+          "raw_results": [
+            {
+              "label": "sadness",
+              "score": 0.004309420473873615
+            },
+            {
+              "label": "joy",
+              "score": 0.32187312841415405
+            },
+            {
+              "label": "love",
+              "score": 0.670377254486084
+            },
+            {
+              "label": "anger",
+              "score": 0.0012162340572103858
+            },
+            {
+              "label": "fear",
+              "score": 0.0010511353611946106
+            },
+            {
+              "label": "surprise",
+              "score": 0.001172808581031859
+            }
+          ],
+          "model_type": "distilbert-emotion"
+        },
+        "timestamp": "2025-05-29T17:11:02.660467"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh, that's wonderful!  To feel so deeply in love is such a beautiful and precious thing.  I'm so happy for you.  It sounds like you've found something truly special.  Cherish these moments and enjoy this incredible feeling.  Is there anything you'd like to share about what's making you feel so loved up?  I'm here to listen if you want to talk about it. ❤️\n",
+        "timestamp": "2025-05-29T17:11:03.883070"
+      }
+    ],
+    "title": "hola",
+    "timestamp": "2025-05-29T17:11:10.075596"
+  }
+}
