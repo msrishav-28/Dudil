@@ -26,15 +26,27 @@ def load_emotion_model():
         st.error(f"Failed to load DistilBERT emotion model: {e}")
         return None, None
 
-def setup_gemini_api():
-    api_key = os.getenv("GEMINI_API_KEY")
+def setup_gemini_api(api_key=None):
+    """
+    Setup Gemini API with provided key or from environment variables
+    
+    Args:
+        api_key (str, optional): API key to use. If None, will try to get from environment variables.
+        
+    Returns:
+        model: The initialized Gemini model object, or None if setup fails
+    """
+    # Use provided API key or fall back to environment variable
+    if api_key is None:
+        api_key = os.getenv("GEMINI_API_KEY")
+    
     if not api_key:
-        st.error("GEMINI_API_KEY not found in environment variables")
+        st.error("GEMINI_API_KEY not found in environment variables or provided parameter")
         return None
     
     try:
         genai.configure(api_key=api_key)
-        model_name = os.getenv("GEMINI_MODEL")
+        model_name = os.getenv("GEMINI_MODEL", "gemini-pro")  # Default fallback
         model = genai.GenerativeModel(model_name)
         return model
     except Exception as e:
