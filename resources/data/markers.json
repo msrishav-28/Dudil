@@ -1,0 +1,102 @@
+{
+  "depression": {
+    "cognitive": {
+      "absolutist": [
+        "always",
+        "never",
+        "nothing",
+        "everything",
+        "completely"
+      ],
+      "hopelessness": [
+        "no point",
+        "give up",
+        "worthless",
+        "cant go on",
+        "meaningless"
+      ],
+      "negative_self": [
+        "im stupid",
+        "i fail",
+        "my fault",
+        "hate myself",
+        "loser"
+      ]
+    },
+    "behavioral": {
+      "social_withdrawal": [
+        "alone",
+        "nobody understands",
+        "isolate",
+        "withdrawn"
+      ],
+      "sleep_issues": [
+        "cant sleep",
+        "insomnia",
+        "tired all time",
+        "exhausted"
+      ],
+      "appetite": [
+        "not eating",
+        "no appetite",
+        "overeating",
+        "lost weight"
+      ]
+    }
+  },
+  "anxiety": {
+    "cognitive": {
+      "worry": [
+        "what if",
+        "worried about",
+        "anxious",
+        "nervous",
+        "concerned"
+      ],
+      "catastrophizing": [
+        "worst case",
+        "disaster",
+        "terrible",
+        "awful"
+      ],
+      "rumination": [
+        "cant stop thinking",
+        "obsessing",
+        "overthinking"
+      ]
+    },
+    "physical": {
+      "panic": [
+        "heart racing",
+        "cant breathe",
+        "chest tight",
+        "dizzy"
+      ],
+      "tension": [
+        "on edge",
+        "cant relax",
+        "restless",
+        "tense"
+      ]
+    }
+  },
+  "crisis": {
+    "suicidal": [
+      "kill myself",
+      "end it all",
+      "suicide",
+      "not worth living"
+    ],
+    "self_harm": [
+      "hurt myself",
+      "cut myself",
+      "self harm",
+      "punish myself"
+    ],
+    "danger": [
+      "goodbye",
+      "sorry for everything",
+      "final decision"
+    ]
+  }
+}

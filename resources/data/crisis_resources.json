@@ -1,0 +1,56 @@
+{
+  "global": {
+    "name": "International Crisis Resources",
+    "resources": [
+      {
+        "name": "Crisis Text Line",
+        "description": "Text support for crisis situations",
+        "contact": "Text HOME to 741741",
+        "available": "24/7",
+        "languages": [
+          "English"
+        ]
+      }
+    ]
+  },
+  "US": {
+    "name": "United States",
+    "resources": [
+      {
+        "name": "988 Suicide & Crisis Lifeline",
+        "description": "24/7 crisis support",
+        "contact": "988",
+        "available": "24/7",
+        "languages": [
+          "English",
+          "Spanish"
+        ]
+      },
+      {
+        "name": "Crisis Text Line",
+        "contact": "Text HOME to 741741",
+        "available": "24/7"
+      },
+      {
+        "name": "SAMHSA National Helpline",
+        "contact": "1-800-662-4357",
+        "available": "24/7"
+      }
+    ]
+  },
+  "UK": {
+    "name": "United Kingdom",
+    "resources": [
+      {
+        "name": "Samaritans",
+        "contact": "116 123",
+        "available": "24/7"
+      },
+      {
+        "name": "Crisis Text Line UK",
+        "contact": "Text SHOUT to 85258",
+        "available": "24/7"
+      }
+    ]
+  }
+}

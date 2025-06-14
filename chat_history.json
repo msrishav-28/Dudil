@@ -1,1 +1,134 @@
-{}
+{
+  "chat_20250614_132420": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "i am sad and lonely",
+        "emotion_analysis": {
+          "emotion": "sadness",
+          "confidence": 0.9975436329841614,
+          "intensity": 1,
+          "raw_results": [
+            {
+              "label": "sadness",
+              "score": 0.9975436329841614
+            },
+            {
+              "label": "joy",
+              "score": 0.0005628446233458817
+            },
+            {
+              "label": "love",
+              "score": 0.0004586991562973708
+            },
+            {
+              "label": "anger",
+              "score": 0.000997684895992279
+            },
+            {
+              "label": "fear",
+              "score": 0.00030300140497274697
+            },
+            {
+              "label": "surprise",
+              "score": 0.00013410492101684213
+            }
+          ],
+          "model_type": "distilbert-emotion"
+        },
+        "timestamp": "2025-06-14T13:24:50.488391"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm so sorry to hear you're feeling sad and lonely.  It takes a lot of courage to share those feelings, and I want you to know that I'm here to listen without judgment.  Is there anything you'd like to talk about that might be contributing to how you feel right now?  Even if you just want to sit with the feeling for a bit, that's okay too.  Remember you're not alone, and things can and will get better.\n",
+        "timestamp": "2025-06-14T13:24:53.579234"
+      },
+      {
+        "role": "user",
+        "content": "everyone in college and my batchmates from school, my juniors, seniors everyonee seems to be in relationship except me",
+        "emotion_analysis": {
+          "emotion": "anger",
+          "confidence": 0.9003453850746155,
+          "intensity": 2,
+          "raw_results": [
+            {
+              "label": "sadness",
+              "score": 0.006604623515158892
+            },
+            {
+              "label": "joy",
+              "score": 0.00627551693469286
+            },
+            {
+              "label": "love",
+              "score": 0.003795205382630229
+            },
+            {
+              "label": "anger",
+              "score": 0.9003453850746155
+            },
+            {
+              "label": "fear",
+              "score": 0.08207143843173981
+            },
+            {
+              "label": "surprise",
+              "score": 0.0009078210568986833
+            }
+          ],
+          "model_type": "distilbert-emotion"
+        },
+        "timestamp": "2025-06-14T13:25:43.496558"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand that feeling left out when it seems like everyone else is in a relationship can be really frustrating and upsetting. It's completely normal to feel a little lonely or even angry when you compare your situation to others.  It sounds like you're surrounded by couples, which can make those feelings even stronger.\n\nRemember that social media often presents a very curated and unrealistic view of people's lives.  What you see isn't necessarily the whole picture.  Many people experience loneliness and singlehood, even if they don't share it openly.\n\nInstead of focusing on what others are doing, maybe we could explore what *you* want and need right now.  What are some things that bring you joy or fulfillment outside of romantic relationships?  Perhaps we could brainstorm some activities or ways to connect with people who share your interests.\n",
+        "timestamp": "2025-06-14T13:25:45.538142"
+      },
+      {
+        "role": "user",
+        "content": "no matter what i do how much i work hard opportunities tend to slip aaway",
+        "emotion_analysis": {
+          "emotion": "sadness",
+          "confidence": 0.4026224911212921,
+          "intensity": 1,
+          "raw_results": [
+            {
+              "label": "sadness",
+              "score": 0.4026224911212921
+            },
+            {
+              "label": "joy",
+              "score": 0.3899346590042114
+            },
+            {
+              "label": "love",
+              "score": 0.0033707935363054276
+            },
+            {
+              "label": "anger",
+              "score": 0.19048713147640228
+            },
+            {
+              "label": "fear",
+              "score": 0.011357448995113373
+            },
+            {
+              "label": "surprise",
+              "score": 0.0022274674847722054
+            }
+          ],
+          "model_type": "distilbert-emotion"
+        },
+        "timestamp": "2025-06-14T13:26:36.687602"
+      },
+      {
+        "role": "assistant",
+        "content": "I hear you.  It sounds incredibly disheartening when you put in so much effort and things still don't seem to work out as planned.  It's completely understandable to feel sad and frustrated when opportunities slip away.  Remember that setbacks are a part of life, and they don't diminish your worth or your hard work.  Can you tell me a bit more about a specific situation where this happened?  Sometimes talking it through can help to process the feelings and maybe even identify areas where things could be approached differently in the future.  Even if it doesn't feel like it right now, you're not alone in this, and your hard work will eventually pay off.\n",
+        "timestamp": "2025-06-14T13:26:38.322334"
+      }
+    ],
+    "title": "i am sad and lonely",
+    "timestamp": "2025-06-14T13:26:38.322334"
+  }
+}
